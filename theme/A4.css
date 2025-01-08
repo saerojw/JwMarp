@@ -6,32 +6,11 @@ section
 {
   width: 210mm;
   height: 297mm;
+  padding: 50px;
   
-  /* 상단 정렬(왼쪽 기준) */
+  /* 상단 정렬 */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
-  padding: 50px;
-}
-
-/* section.right: 텍스트 오른쪽 정렬 */
-section.right h1,
-section.right h2,
-section.right h3,
-section.right p,
-section.right ul,
-section.right ol {
-  text-align: right;
-}
-
-/* section.center: 텍스트 중앙 정렬 */
-section.center h1,
-section.center h2,
-section.center h3,
-section.center p,
-section.center ul,
-section.center ol  {
-  text-align: center;
 }
