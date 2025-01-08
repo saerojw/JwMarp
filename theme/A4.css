@@ -15,3 +15,24 @@ section
 
   padding: 50px;
 }
+
+/* section.right: 텍스트 오른쪽 정렬 */
+section.align-right h1,
+section.align-right h2,
+section.align-right h3,
+section.align-right p,
+section.align-right ul,
+section.align-right ol {
+  /* 전체 영역이 오른쪽 정렬되도록 */
+  text-align: right;
+}
+
+/* section.center: 텍스트 중앙 정렬 */
+section.align-center h1,
+section.align-center h2,
+section.align-center h3,
+section.align-center p,
+section.align-center ul,
+section.align-center ol  {
+  text-align: center;
+}
