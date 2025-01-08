@@ -15,7 +15,7 @@ section
   padding: 50px;
 }
 
-/* section.right: 텍스트 오른쪽 정렬 */
+/* /* section.right: 텍스트 오른쪽 정렬 */
 section.right {
   /* 전체 영역이 오른쪽 정렬되도록 */
   text-align: right;
@@ -25,3 +25,4 @@ section.right {
 section.center {
   text-align: center;
 }
+ */
