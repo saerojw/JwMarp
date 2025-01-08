@@ -17,22 +17,21 @@ section
 }
 
 /* section.right: 텍스트 오른쪽 정렬 */
-section.align-right h1,
-section.align-right h2,
-section.align-right h3,
-section.align-right p,
-section.align-right ul,
-section.align-right ol {
-  /* 전체 영역이 오른쪽 정렬되도록 */
+section.right h1,
+section.right h2,
+section.right h3,
+section.right p,
+section.right ul,
+section.right ol {
   text-align: right;
 }
 
 /* section.center: 텍스트 중앙 정렬 */
-section.align-center h1,
-section.align-center h2,
-section.align-center h3,
-section.align-center p,
-section.align-center ul,
-section.align-center ol  {
+section.center h1,
+section.center h2,
+section.center h3,
+section.center p,
+section.center ul,
+section.center ol  {
   text-align: center;
 }
