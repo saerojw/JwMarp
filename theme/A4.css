@@ -6,10 +6,14 @@ section
 {
   width: 210mm;
   height: 297mm;
-  padding: 50px;
+  
+  /* 상 우 하 좌 (1in = 2.54cm = 96px, 1cm = 37.795px) */
+  padding: 75px;
   
   /* 상단 정렬 */
   display: flex;
   justify-content: flex-start;
+  
+  /* 왼쪽 정렬 */
   align-items: flex-start;
 }
