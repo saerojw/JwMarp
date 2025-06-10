@@ -20,14 +20,6 @@ section
     font-size: 14px;
 }
 
-h1,
-h2,
-h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    line-height: 1.1;
-}
-
 h4 {
     color: #0f2d53;
     font-size: 30px;
