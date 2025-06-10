@@ -4,7 +4,8 @@
 
 section
 {
-    width: 210mm; height: 297mm;
+    width: 210mm;
+    height: 297mm;
     padding: 75px;
 
     background: white;
@@ -13,8 +14,9 @@ section
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
     text-align: justify;
-
+    align-items: flex-start;
     font-size: 14px;
 }
 
