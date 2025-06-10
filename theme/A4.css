@@ -4,16 +4,66 @@
 
 section
 {
-  width: 210mm;
-  height: 297mm;
-  
-  /* 상 우 하 좌 (1in = 2.54cm = 96px, 1cm = 37.795px) */
-  padding: 75px;
-  
-  /* 상단 정렬 */
-  display: flex;
-  justify-content: flex-start;
-  
-  /* 왼쪽 정렬 */
-  align-items: flex-start;
+    width: 210mm; height: 297mm;
+    padding: 75px 75px;
+
+    background: white;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+
+    font-size: 14px;
 }
+
+h1,
+h2,
+h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+h4 {
+    color: #0f2d53;
+    font-size: 30px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.0em;
+    text-align: center;
+    margin-block: 0 1.0em;
+}
+
+h6 {
+    font-size: 0.9em;
+    text-align: right;
+    margin-block: 0 5.0em;
+}
+
+img {
+    display: block;
+    max-width:100%; height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    position:relative;
+    text-align: left;
+}
+
+p code {
+    background-color: #f6f8fa;
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
+}
+
+code {
+    color: #202228;
+    overflow-x: auto;
+}
+
